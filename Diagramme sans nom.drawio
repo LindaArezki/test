@@ -1,73 +1,47 @@
-<mxfile host="app.diagrams.net" modified="2024-07-20T20:55:17.771Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.7.2" etag="xi1Kd24JBio5yc2nRqWL" type="github">
-  <diagram name="Page-1" id="LFGNdYzToV5a4010ySZ_">
+<mxfile host="app.diagrams.net" modified="2024-07-20T21:20:12.122Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.7.2" etag="4rxGQZHDmkKdkl9qzFwT" type="github">
+  <diagram name="Page-1" id="Hp6jff_vpi80dohZ1l5y">
     <mxGraphModel>
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="Start" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="324" width="50" height="50" as="geometry" />
+        <mxCell id="2" value="Base de Données&#xa;Hébergé sur PlanetHoster" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry y="169" width="185" height="205" as="geometry" />
         </mxCell>
-        <mxCell id="3" value="Création de la VM" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="277" y="100" width="143" height="34" as="geometry" />
+        <mxCell id="3" value="Base de Données" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="25" y="204" width="135" height="135" as="geometry" />
         </mxCell>
-        <mxCell id="4" value="Définir les ressources ?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="243" y="184" width="212" height="212" as="geometry" />
+        <mxCell id="4" value="Serveur Web&#xa;Hébergement du Site&#xa;Hébergé sur PlanetHoster" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="220" y="32" width="184" height="307" as="geometry" />
         </mxCell>
-        <mxCell id="5" value="Définir les ressources" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="136" y="465" width="168" height="34" as="geometry" />
+        <mxCell id="5" value="Serveur Web" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="260" y="185" width="105" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="6" value="Choisir le système d&#39;exploitation" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="354" y="465" width="248" height="34" as="geometry" />
+        <mxCell id="6" value="Machine Virtuelle (VM) - Keycloak&#xa;Hébergé sur Azure" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-29" width="242" height="149" as="geometry" />
         </mxCell>
-        <mxCell id="7" value="Choisir le système d&#39;exploitation ?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="74" y="548" width="292" height="292" as="geometry" />
+        <mxCell id="7" value="Keycloak" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="53" y="35" width="79" height="79" as="geometry" />
         </mxCell>
-        <mxCell id="8" value="Choisir le système d&#39;exploitation" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry y="909" width="248" height="34" as="geometry" />
-        </mxCell>
-        <mxCell id="9" value="Fin" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="298" y="909" width="37" height="34" as="geometry" />
-        </mxCell>
-        <mxCell id="10" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.49;exitY=1.01;entryX=0.5;entryY=0.01;" edge="1" parent="1" source="2" target="3">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="11" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="3" target="4">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="12" value="Oui" style="curved=1;startArrow=none;endArrow=block;exitX=0.04;exitY=1;entryX=0.5;entryY=-0.01;" edge="1" parent="1" source="4" target="5">
+        <mxCell id="8" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.26;entryY=0;" edge="1" parent="1" source="7" target="5">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="220" y="430" />
+              <mxPoint x="235" y="74" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="13" value="Non" style="curved=1;startArrow=none;endArrow=block;exitX=0.96;exitY=1;entryX=0.5;entryY=-0.01;" edge="1" parent="1" source="4" target="6">
+        <mxCell id="9" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.82;entryX=1;entryY=0.59;" edge="1" parent="1" source="5" target="3">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="478" y="430" />
+              <mxPoint x="235" y="288" />
+              <mxPoint x="185" y="288" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="14" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.98;entryX=0.5;entryY=0;" edge="1" parent="1" source="5" target="7">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="15" value="Oui" style="curved=1;startArrow=none;endArrow=block;exitX=0.23;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="7" target="8">
+        <mxCell id="10" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.33;entryX=0;entryY=0.52;" edge="1" parent="1" source="3" target="5">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="124" y="875" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="16" value="Non" style="curved=1;startArrow=none;endArrow=block;exitX=0.77;exitY=1;entryX=0.48;entryY=0;" edge="1" parent="1" source="7" target="9">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="316" y="875" />
+              <mxPoint x="185" y="240" />
+              <mxPoint x="235" y="240" />
             </Array>
           </mxGeometry>
         </mxCell>
